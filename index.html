@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <header id="header">
+        <div class="overlay overlay-lg">
+          <img src="./img/shapes/points1.png" class="points points1" alt="" />
+   
+         </div> 
+
+        <!-- NAVIGATION -->
+        <nav>
+          <div class="container">
+            <div class="logo">
+              <img src="./img/Assets/nidhi-logo.png" alt="" />
+            </div>
+
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#header">Home</a>
+                </li>
+
+                <li>
+                  <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="#about">Skills</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+                <li>
+                  <a href="#hireme" class="active">Hire me</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </nav>
+
+        <!-----HEADER SECTION-  -->
+        <div class="header-content">
+          <div class="container grid-2">
+            <div class="column-1">
+              <h1 class="header-title">Nidhi Mitra</h1>
+              <p class="text">
+                 Frontend Developer
+                   
+              </p>
+              <a href="https://drive.google.com/file/d/1QWmV39oHp7uXPnlaX0Xqet-b9J4j6LIF/view?usp=sharing" class="btn">Download CV </a>   
+            </div>
+
+            <div class="column-2 image">
+              <img
+                src="./img/shapes/points2.png"
+                class="points points2"
+                alt=""
+              />
+              <img src="./img/Assets/nidhi-img.png" class="img-element z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </header>
+
+
+<!-- PORTFOLIO SECTION -->
+      <section class="portfolio section" id="portfolio">
+        <div class="background-bg">
+           </div>
+
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="My works">Portfolio</h3>
+          </div>
+
+          <div class="section-body">
+            <div class="filter">
+              <button class="filter-btn active" data-filter="*">All</button>
+              <button class="filter-btn" data-filter=".webdev">Web Development</button>
+              <button class="filter-btn" data-filter=".appdev"> Machine Learning </button>
+               </div>
+
+            <div class="grid">
+
+             
+              <div class="grid-item webdev">
+                <div class="gallery-image">
+                  <a href=""><img src="./img/portfolio/amazon.jpg" alt="" />
+                  </a>
+                  
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3><a href="https://nidhimitra.github.io/AmazonWebClone/"> AMAZON-CLONE</a> </h3>
+                      <h5 > Web Development</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="grid-item ui webdev">
+                <div class="gallery-image">
+                  <a href=""><img src="./img/portfolio/dog.jpg" alt="" /></a>
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3><a  href="https://nidhimitra.github.io/TinDog-Website/">TinDog Website</a></h3>
+                      <h5>Web Development</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              
+             
+              <div class="grid-item appdev">
+                <div class="gallery-image">
+                  <a href=""><img src="./img/portfolio/heart.jpg" alt="" />
+                  </a>
+                   <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3><a href="https://github.com/NidhiMitra/Heart_Disease_Prediction">  Heart Disease Prediction </a></h3>
+                      <h5>Machine Learning</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              </div>
+            </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- ABOUT ME _ SECTION -->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Who Am I">About me</h3>
+          </div>
+
+          <div class="section-body grid-2">
+            <div class="column-1">
+              <h3 class="title-sm">Hello, I'm</h3>
+              <p class="text">
+               
+Nidhi Mitra, a student of IGDTUW, Delhi.
+I'm currently pursuing my post graduation in MCA from IGDTUW. 
+I have interests in learning more about the current trends in
+technological advancement.Apart from that I love to express myself with my paint brush.
+</p>
+              <div class="skills">
+              
+                <div class="skill html">
+                  <h3 class="skill-title">HTML</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="90%"></div>
+                  </div>
+                </div>
+                <div class="skill css">
+                  <h3 class="skill-title">CSS</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70%"></div>
+                  </div>
+                </div>
+                <div class="skill bootstrap">
+                  <h3 class="skill-title">Bootstrap</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70%"></div>
+                  </div>
+                </div>
+             
+                <div class="skill js">
+                  <h3 class="skill-title">Core Java</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="60%"></div>
+                  </div>
+                </div>
+                <div class="skill sql">
+                  <h3 class="skill-title">MySQL</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="40%"></div>
+                  </div>
+                </div>
+             
+              </div>
+            
+              
+              
+          </div>
+            <div class="column-2 image">
+              <img src="./img/shapes/points4.png" class="points" alt="" />
+              <img src="./img/Assets/mitra.png" class="z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact-box">
+            <div class="contact-info">
+              <h3 class="title">Get in touch</h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                rerum odio incidunt doslorum officia dolorem eaque aprim?
+              </p>
+              <div class="information-wrap">
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <p class="info-text">D-8, Jaishree Vihar, Thegda Road, Kota, Rajasthan</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fa fa-envelope" style="font-size:30px"></i>
+                  </div>
+                  <p class="info-text">nidhimitrawork@gmail.com</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <p class="info-text">123-456-789</p>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="contact-form">
+              <h3 class="title">Contact me</h3>
+              <div class="row">
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="First Name"
+                />
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="Last Name"
+                />
+              </div>
+
+              <div class="row">
+                <input type="text" class="contact-input" placeholder="Phone" />
+                <input type="email" class="contact-input" placeholder="Email" />
+              </div>
+
+              <div class="row">
+                <textarea
+                  name="message"
+                  class="contact-input textarea"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <a href="#" class="btn">Send</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- HIRE ME - SECTION -->
+      <section class="hireme" id="hireme">
+        <div class="container">
+          <h3 class="title">Let's talk about a project</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio,
+            culpa. Commodi suscipit animi officia dignissimos unde, ipsum fugiat
+            consequuntur, fugit ratione vel aperiam, similique distinctio
+            mollitia repellendus quasi rem vero!
+          </p>
+          <a href="#portfolio" class="btn">Hire me</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+            <h3 class="title-sm">About</h3>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              officiis quo officia quia?
+            </p>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Links</h3>
+            <ul>
+              <li>
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#about">Skills</a>
+              </li>
+           
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+             
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Let's Connect</h3>
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/nidhimitra/">Linkedin</a>
+              </li>
+              <li>
+                <a href="https://github.com/NidhiMitra">Github</a>
+              </li>
+              <li>
+                <a href="https://www.hackerrank.com/NidhiMitra?hr_r=1">HackerRank</a>
+              </li>
+              
+               </ul>
+          </div>
+
+          <div class="grid-4-col footer-newstletter">
+            <h3 class="title-sm">Subscribe</h3>
+            <p class="text">
+              Lorem ipsum dolor, sit amet ipsum dolor sit amet.
+            </p>
+            <div class="footer-input-wrap">
+              <input type="email" class="footer-input" placeholder="Email" />
+              <a href="#" class="input-arrow">
+                <i class="fas fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        
+        <div class="bottom-footer">
+          
+          <div class="followme-wrap">
+            
+              <div class="social-media">
+                <a href="https://twitter.com/home">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/nidhimitra/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/NidhiMitra">               
+               <i class="fa fa-github"></i>
+                </a>
+           
+            </div>
+
+             </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
